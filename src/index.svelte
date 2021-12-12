@@ -43,6 +43,7 @@
   const onImgLoad = () => {
     computeSizes()
     emitCropData()
+    dispatch('imageload', imgEl)
   }
 
   const getAspect = () => {
